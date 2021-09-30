@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+
+}
+.list-group span{
+position: absolute;
+right: 5px;
+bottom: 5px;
+
+}
+.list-group li{
+    margin-bottom: 5px;
+}
+.remove_btn{
+    display: inline
+}
+@media only screen and (max-width: 500px){
+    .btn{
+        position: absolute;
+        right: 38%;
+        padding-bottom: 25px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 30px;
+    }
+    .list-group li{
+        margin-top: 20px;
+        
+    }
+    .list-group span{
+        top: -3.5px;
+    }
+
+}
+li.list-group-item:hover > .remove_btn{
+    display: inline;
+    transition: all 0.5s ease;
+    
+}
