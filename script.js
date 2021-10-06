@@ -1,4 +1,4 @@
-// localStorage.tasks=JSON.stringify([]);
+ localStorage.tasks=JSON.stringify([]);
 updateList();
 function addEvent(){
     //get input from input box
